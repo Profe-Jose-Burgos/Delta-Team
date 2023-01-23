@@ -7,15 +7,15 @@ from tensorflow.python.keras.models import load_model
 
 stemmer = SnowballStemmer("spanish")
 
-model = load_model("chatbot_model.h.5")
+model = load_model("chatbot_model.h5")
 intents = json.loads(open("intent.json").read())
-words = pickle.load(open("words:pkl","rb"))
+words = pickle.load(open("words.pkl","rb"))
 classes = pickle.load(open("classes.pkl","rb"))
 
 
 def clean_up_sentence(sentence):
     sentence_words = nltk.word_tokenize(sentence)
-    sentence_words = [stemmer.stem(word.lowe() for word in sentence_words)]
+    sentence_words = [stemmer.stem(word.lower()) for word in sentence_words]
     return sentence_words
 
 def bow(sentence, words, show_details=True):
