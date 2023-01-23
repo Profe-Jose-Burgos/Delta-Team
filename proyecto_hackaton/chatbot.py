@@ -5,7 +5,7 @@ from nltk.stem import SnowballStemmer
 from tensorflow.python.keras.models import load_model
 
 
-stemmer = SnowballStemmer("Spanish")
+stemmer = SnowballStemmer("spanish")
 
 model = load_model("chatbot_model.h.5")
 intents = json.loads(open("intent.json").read())
@@ -36,8 +36,8 @@ def predict_class(sentence,model):
 
     results = []
     for i,j in enumerate(res):
-        if j > error_threshold>
-        results.append([i,j])
+        if j > error_threshold:
+            results.append([i,j])
     #else:
     #   return "No entendí tu pregunta o inquietud, ¿podría usted ser más específico"
 
