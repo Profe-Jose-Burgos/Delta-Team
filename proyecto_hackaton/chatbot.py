@@ -74,6 +74,11 @@ def start_bot():
         res = chatbot_response(texto_us)
         print(res)
 
+def bot(texto_us):
+    #start_chatbot() #PRUEBA EN CONSOLA
+    res = chatbot_response(texto_us)
+    return res
+
 def start_chatbot():
     start_intents()
     start_model()

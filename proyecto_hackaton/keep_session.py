@@ -12,7 +12,7 @@ with open('./whatsapp_session.txt', 'w') as text_file:
 
 def new_command_execute(self,command, params=None):
     if command == "NewSession":
-        return ('success': 0, 'value': None, 'sessionId': session_id)
+        return {'success': 0, 'value': None, 'sessionId': session_id}
     else:
         return org_command_execute(self, command, params)
 

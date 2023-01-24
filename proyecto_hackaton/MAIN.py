@@ -5,7 +5,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.remote.webdriver import WebDriver as RemoteWebDriver
 import re
 from unicodedata import normalize
-from selenium.webdriver.commom.by import By
+from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
 filepath = "./whatsaap_session.txt"
@@ -65,7 +65,7 @@ def buscar_chats():
             return True
     else:
 
-        chats = driver.find_elements(By.CLASS_NAME, "10e6M")
+        chats = driver.find_elements(By.CLASS_NAME, "_10e6M")
         for chat in chats:
             print("DETECTANDO CHATS")
             print("mensajes sin leer:", len(chats))
