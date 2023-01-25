@@ -14,7 +14,379 @@
                 "que tal"
             ],
             "responses": [
-                "hola soy HCK-Bot , tu asistente virtual universitario, \u00bfen que puedo ayudarte?"
+                "hola soy Uni-BOT , \u00bfen que puedo ayudarte?"
+            ]
+        },
+        {
+            "tag": "admision",
+            "patterns": [
+                "admision",
+                "Cual es el proceso de admision",
+                "Como funciona el proceso de admision",
+                "que pasos se deben seguir para la admision",
+                "como ingreso a la universidad",
+                "Como hago la admision",
+                "como inicio el procesos de admision",
+                "informacion sobre admision"
+            ],
+            "responses": [
+                "Los pasos para seguir el proceso de admisi\u00f3n son los siguientes:\nPaso 1: Realizar la Inscripci\u00f3n en L\u00ednea.\nPaso 2: Pagar la Prueba de Ubicaci\u00f3n.\nPaso 3: Participar en la Aplicaci\u00f3n de la Prueba de Ubicaci\u00f3n.\nPaso 4: Consultar Resultados.\nPaso 5: Pagar la Prueba de Ingl\u00e9s, solo los aspirantes a las carreras de Aviaci\u00f3n y la carrera de Licenciatura  en Comunicaci\u00f3n Ejecutiva Biling\u00fce\nPaso 6: Matricular el Programa de Verano.\n\nPara m\u00e1s informaci\u00f3n, ingrese al siguiente enlace https://utp.ac.pa/proceso-de-admision"
+            ]
+        },
+        {
+            "tag": "ofertaAcademica",
+            "patterns": [
+                "oferta academica",
+                "carreras disponibles",
+                "que carreras existen",
+                "que puedo estudiar aqui",
+                "que se puede estudiar en la universidad",
+                "oferta academica de la universidad",
+                "informacion sobre las carreras"
+            ],
+            "responses": [
+                "Si desea conocer la variedad de carreras que existen en la UTP, haga click en el siguiente enlace para acceder al panorama total de la oferta acad\u00e9mica de la UTP https://utp.ac.pa/oferta-academica-de-la-utp"
+            ]
+        },
+        {
+            "tag": "Inscripcion",
+            "patterns": [
+                "inscripcion",
+                "a donde me inscribo",
+                "como me inscribo",
+                "me inscribo en la universidad",
+                "hago el proceso de inscripcion en linea",
+                "que hago para inscribirme",
+                "informacion sobre inscripcion"
+            ],
+            "responses": [
+                "Todo estudiante que aspire a realizar la Prueba de Ubicaci\u00f3n debe inscribirse.\nRealice la inscripci\u00f3n en: http://matricula.utp.ac.pa/siu/paso1.aspx.\nPara m\u00e1s informaci\u00f3n sobre el proceso de inscripci\u00f3n, haga click en el siguiente enlace https://utp.ac.pa/proceso-de-admision "
+            ]
+        },
+        {
+            "tag": "Costos",
+            "patterns": [
+                "Cuanto cuesta los examenes de ingreso",
+                "Cuanto cuesta la inscripcion",
+                "Cuanto cuesta la prueba",
+                "Costo",
+                "Costo de la prueba de ingreso ",
+                "Costo de admisi\u00f3n",
+                "Cuanto cuesta el examen de ingreso",
+                "Cuanto cuesta la prueba ",
+                "cuanto debo pagar para la prueba",
+                "cuanto se paga para la inscripcion",
+                "como se paga la prueba",
+                "como se pagan los examenes",
+                "como se paga la inscripcion",
+                "informacion sobre costos de prueba",
+                "informacion sobre como pagar la prueba",
+                "cuanto cuesta"
+            ],
+            "responses": [
+                "Los costos de las pruebas de admisi\u00f3n son los siguientes:\nPago de la Prueba de Ubicaci\u00f3n (B/. 30.00)\nPago de la Prueba de Ingl\u00e9s (B/. 15.00)\nPago de la Prueba Psicol\u00f3gica (B/. 10.00).\n\nLa Prueba de Ubicaci\u00f3n se paga de forma presencial en las cajas de la UTP de acuerdo a la CITA DE PAGO que se le proporcion\u00f3 al completar su inscripci\u00f3n.\n\nLa Prueba de Ubicaci\u00f3n se paga de forma presencial en las cajas de la UTP de acuerdo a la CITA DE PAGO que se le proporcion\u00f3 al completar su inscripci\u00f3n."
+            ]
+        },
+        {
+            "tag": "PruebaDeUbicacion",
+            "patterns": [
+                "donde es la prueba",
+                "cuando es la prueba",
+                "donde es el examen",
+                "cuando es el examen",
+                "cuando es la convocatoria",
+                "donde es la convocatoria",
+                "fecha de la prueba",
+                "hora de la prueba",
+                "fecha del examen",
+                "hora del examen",
+                "Devolucion de dinero de la prueba",
+                "cuando es la prueba de admision"
+            ],
+            "responses": [
+                "Debe asistir a la Prueba de Ubicaci\u00f3n en la fecha y hora que indica su recibo de pago, de lo contrario, perder\u00e1 su prueba, pero podr\u00e1 aplicar para la convocatoria siguiente, realizando el pago correspondiente. La UTP no har\u00e1 devoluci\u00f3n del dinero si no asiste en la fecha y hora programada.\n\nPara conocer la fecha y hora de la aplicaci\u00f3n de su prueba, ingrese al sistema de matr\u00edcula: matricula.utp.ac.pa, introduzca su c\u00e9dula, contrase\u00f1a y haga clic en \"Buscar Aula\". Para mayor informacion ingrese a https://www.utp.ac.pa/informacion-sobre-las-pruebas"
+            ]
+        },
+        {
+            "tag": "resultadosPrueba",
+            "patterns": [
+                "entrega los resultados de las pruebas de admision",
+                "recojer los resultados de las pruebas",
+                "que dia entregan los examenes",
+                "se entrega de notas",
+                "que dia se entregan las notas",
+                "resultados de las notas",
+                "cuando saque en las pruebas",
+                "quiero ver resultados de prueba"
+            ],
+            "responses": [
+                "El resultado de la Prueba de Ubicaci\u00f3n se publica a los 15 d\u00edas calendario, posteriores a la fecha de aplicaci\u00f3n de esta prueba. Para ver sus resultados, ingrese a matricula.utp.ac.pa , introduzca su c\u00e9dula, contrase\u00f1a y haga clic en la opci\u00f3n del men\u00fa \"Consultar Resultados\"."
+            ]
+        },
+        {
+            "tag": "matricula",
+            "patterns": [
+                "matricula",
+                "como me matriculo",
+                "como se matricula",
+                "procedimiento de matricula",
+                "como me matriculo en la pagina web",
+                "informacion sobre la matricuka",
+                "donde me matriculo",
+                "info sobre matricula",
+                "informacion de la matricula"
+            ],
+            "responses": [
+                "En el siguiente enlace, se le explica de forma detallada el procedimiento para completar la matr\u00edcula del estudiante https://utp.ac.pa/pasos-para-la-matricula-regular-de-la-utp"
+            ]
+        },
+        {
+            "tag": "olvidarContrasena",
+            "patterns": [
+                "olvide mi contrase\u00f1a",
+                "Se me olvido la contrase\u00f1a",
+                "perdi mi contrase\u00f1a",
+                "donde consigo una contrase\u00f1a",
+                "olvide mi contrase\u00f1a",
+                "olvide mi clave",
+                "se me perdio mi clave de inscripcion",
+                "perdi mi contrase\u00f1a de inscripcion",
+                "donde consigo la clave de la cuenta"
+            ],
+            "responses": [
+                "Si ha perdido u olvidado su clave de inscripci\u00f3n, deber\u00e1 enviar un correo a su sede correspondiente con su nombre y n\u00famero de c\u00e9dula solicitando su clave de inscripci\u00f3n. A continuaci\u00f3n se le brinda los correos electronicos de las distintas sedes UTP:\n-Panam\u00e1 siu.panama@utp.ac.pa\n-Bocas del Toro siu.bocasdeltoro@utp.ac.pa\n-Azuero\tsiu.azuero@utp.ac.pa\n-Chiriqu\u00ed siu.chiriqui@utp.ac.pa\n-Cocl\u00e9 siu.cocle@utp.ac.pa\n-Col\u00f3n siu.colon@utp.ac.pa\n-Panam\u00e1 Oeste siu.panamaoeste@utp.ac.pa\n-Veraguas siu.veraguas@utp.ac.pa"
+            ]
+        },
+        {
+            "tag": "reprobarAdmision",
+            "patterns": [
+                "no aprobe",
+                "reprobe la prueba",
+                "si no paso debo inscribirme de nuevo",
+                "no pase la admision",
+                "debo volver a inscribirme",
+                "falle la prueba",
+                "fracase en la prueba",
+                "no obtuve el puntaje suficiente",
+                "no asisti a la prueba de admision"
+            ],
+            "responses": [
+                "Si no pudo aprobar en la primera convocatoria,No debe volver a inscribirse, ya que sus datos quedan guardados en el sistema, al momento en que realiz\u00f3 su inscripci\u00f3n para realizar la prueba en la Primera Convocatoria. En caso de que vaya a reintentar la prueba de admisi\u00f3n en el pr\u00f3ximo a\u00f1o, debe volver a inscribirse y es obligatorio que cumpla con todo el Proceso de Admisi\u00f3n. La inscripci\u00f3n solo es v\u00e1lida para el a\u00f1o en que presenta la prueba"
+            ]
+        },
+        {
+            "tag": "cambiarInscripcion",
+            "patterns": [
+                "Cambiar opciones de matricula",
+                "cambiar inscripcion",
+                "cambiar de carrera",
+                "modificar inscripcion",
+                "modificar datos de incripcion",
+                "cambiar datos de carrera",
+                "modificar datos de carrera"
+            ],
+            "responses": [
+                "Podra cambiar datos relacionados con su inscripci\u00f3n inicial hasta un mes antes de que culmine sus clases del periodo de verano."
+            ]
+        },
+        {
+            "tag": "Convalidar",
+            "patterns": [
+                "Quisiera convalidar creditos",
+                "quiero convalidar materias",
+                "soy de otra universidad",
+                "convalidar creditos de otra universidad"
+            ],
+            "responses": [
+                "Puede encontrar informaci\u00f3n al respecto en el siguiente enlace http://www.utp.ac.pa/sites/default/files/documentos/2020/pdf/utp-req-convalidacion-4.pdf"
+            ]
+        },
+        {
+            "tag": "ingMecanica",
+            "patterns": [
+                "ingeneria mecanica",
+                "ing mecanica",
+                "ingeniero mecanico",
+                "que hace un ing mecanico",
+                "de que trata la ing mecanica",
+                "mecanico"
+            ],
+            "responses": [
+                "El Licenciado en Ingenier\u00eda Mec\u00e1nica ser\u00e1 capaz de enfrentarse al reto tecnol\u00f3gico en todo momento en el \u00e1mbito nacional e internacional, que tenga actitud cient\u00edfica; de autorrealizaci\u00f3n y la habilidad de dise\u00f1ar, construir, instalar, operar, mantener y reparar todo tipo de sistemas-equipos-componentes mec\u00e1nicos. Para m\u00e1s informaci\u00f3n sobre la carrera ingrese al siguiente enlance https://fim.utp.ac.pa/licenciatura-en-ingenieria-mecanica"
+            ]
+        },
+        {
+            "tag": "ingMantenimiento",
+            "patterns": [
+                "mantenimiento",
+                "hacer mantenimiento"
+            ],
+            "responses": [
+                "La carrera de Licenciatura en Ingenier\u00eda de Mantenimiento, tiene como fin formar un profesional capaz de enfrentarse al reto del avance tecnol\u00f3gico en todo momento en el \u00e1mbito nacional e internacional, que tenga una actitud cient\u00edfica; de autorrealizaci\u00f3n; y la habilidad de construir, instalar, operar, mantener y reparar todo tipo de sistemas-equipos-componentes mec\u00e1nicos.Para m\u00e1s informaci\u00f3n sobre la carrera ingrese al siguiente enlance https://fim.utp.ac.pa/licenciatura-en-ingenieria-de-mantenimiento"
+            ]
+        },
+        {
+            "tag": "ingNaval",
+            "patterns": [
+                "ing naval",
+                "ingenieria naval",
+                "hacer barcos",
+                "reparar barcos",
+                "buques",
+                "astillero",
+                "bote"
+            ],
+            "responses": [
+                "El Licenciado en Ingenier\u00eda Naval se ocupa del dise\u00f1o, planificaci\u00f3n, proyecto y construcci\u00f3n de toda estructura flotante. La ingenier\u00eda naval abarca las funciones de ingenier\u00eda incluyendo el proyecto creativo del buque y artefactos flotantes, la investigaci\u00f3n aplicada, el desarrollo t\u00e9cnico en los campos de dise\u00f1o, construcci\u00f3n y la administraci\u00f3n de los centros de producci\u00f3n de material flotante (astilleros). As\u00ed como tambi\u00e9n del mantenimiento y reparaci\u00f3n de estos. Para m\u00e1s informaci\u00f3n sobre la carrera ingrese al siguiente enlance https://fim.utp.ac.pa/licenciatura-en-ingenieria-naval"
+            ]
+        },
+        {
+            "tag": "ingAero",
+            "patterns": [
+                "ing aeronautica",
+                "que es la ing aeronautica",
+                "ingenieria aeronautica",
+                "ing aeronautica",
+                "aeroespacial",
+                "aviones"
+            ],
+            "responses": [
+                "La carrera de Licenciatura en Ingenier\u00eda Aeron\u00e1utica, tiene como meta formar profesionales con fundamentos esenciales para desempe\u00f1arse como parte de los equipos a cargo del dise\u00f1o y mantenimiento de aeronaves y sus sistemas de apoyo, tales como estructuras, motores, instrumentos, sistemas de control, de navegaci\u00f3n y comunicaci\u00f3n, de aterrizaje, de acondicionamiento de cabina y de protecci\u00f3n. Para m\u00e1s informaci\u00f3n sobre la carrera ingrese al siguiente enlance https://fim.utp.ac.pa/licenciatura-en-ingenieria-aeronautica"
+            ]
+        },
+        {
+            "tag": "ingEnergia",
+            "patterns": [
+                "ing de energia y ambiente",
+                "energia y ambiente",
+                "ingenieria de energia y ambiente",
+                "energia y ambiente",
+                "energias renovables",
+                "energias limpias",
+                "energia solarenergia geotermica",
+                "hidroelectrica",
+                "mareomotriz",
+                "undimotriz",
+                "eolica"
+            ],
+            "responses": [
+                "El Ingeniero de Energ\u00eda y Ambiente es un profesional con conocimientos t\u00e9cnicos y te\u00f3ricos para el dise\u00f1o y operaci\u00f3n de sistemas de eficiencia energ\u00e9tica, incluyendo la incorporaci\u00f3n de fuentes renovables de energ\u00eda y criterios de sostenibilidad ambiental. Para m\u00e1s informaci\u00f3n sobre la carrera ingrese al siguiente enlance https://fim.utp.ac.pa/licenciatura-en-ingenieria-de-energia-y-ambiente"
+            ]
+        },
+        {
+            "tag": "ingMecInd",
+            "patterns": [
+                "mecanica industrial",
+                "reparar maquinas",
+                "tecnico de maquinas",
+                "mecanica industrial",
+                "de que trata la mecanica industrial",
+                "licenciatura en mecanica",
+                "arreglar aparatos",
+                "arreglar maquinas",
+                "maquinaria industrial",
+                "equipo pesado",
+                ""
+            ],
+            "responses": [
+                "La carrera de Licenciatura en Mec\u00e1nica Industrial tiene como meta formar profesionales con la veracidad de atender las \u00e1reas Tecnol\u00f3gicas de la Mec\u00e1nica Industrial. Esto se logra del entrenamiento sistem\u00e1tico en la aplicaci\u00f3n racional y emp\u00edrica de los procedimientos de dise\u00f1o, proyecci\u00f3n instalaci\u00f3n, fabricaci\u00f3n, mantenimiento y reparaci\u00f3n de equipos e instalaciones mec\u00e1nicas. Para m\u00e1s informaci\u00f3n sobre la carrera ingrese al siguiente enlance https://fim.utp.ac.pa/licenciatura-en-mecanica-industrial"
+            ]
+        },
+        {
+            "tag": "refrigeracion",
+            "patterns": [
+                "refrigeracion",
+                "aire acondicionado",
+                "refrigeracion y aire acondicionado",
+                "refrigeracion",
+                "aire acondicionado",
+                "enfriamiento",
+                "cuartos frios",
+                "congeladores",
+                "congelar",
+                "enfriar"
+            ],
+            "responses": [
+                "La carrera de Licenciatura en Refrigeraci\u00f3n y Aire Acondicionado tiene la finalidad en formar un profesional capaz de enfrentarse al reto del avance tecnol\u00f3gico en todo momento en el \u00e1mbito nacional e internacional, que tenga una actitud cient\u00edfica; de autorrealizaci\u00f3n; y habilidad de dise\u00f1ar, construir, instalar, operar, mantener, y reparar todo tipo de sistema de aire acondicionado y refrigeraci\u00f3n. Para m\u00e1s informaci\u00f3n sobre la carrera ingrese al siguiente enlance https://fim.utp.ac.pa/licenciatura-en-refrigeracion-y-aire-acondicionado"
+            ]
+        },
+        {
+            "tag": "automotriz",
+            "patterns": [
+                "licenciatura en  automotriz",
+                "que es  automotriz",
+                " automotriz",
+                "que hace un  automotriz",
+                "reparacion de carros",
+                "mecanico de carros",
+                "reparacion de autos",
+                "carrera de reparacion de autos",
+                "reparacion de autos",
+                "coches",
+                "automoviles",
+                "arreglar o reparar carros,autos,coches"
+            ],
+            "responses": [
+                "La carrera de Licenciatura en Mec\u00e1nica Automotriz, tiene la finalidad de formar un profesional capaz de enfrentarse al reto del avance tecnol\u00f3gico en todo momento en el \u00e1mbito nacional e internacional, que tenga actitud cient\u00edfica, de autorrealizaci\u00f3n y la habilidad de reparar, mantener e instalar todo tipo de sistema automotriz. Para m\u00e1s informaci\u00f3n sobre la carrera ingrese al siguiente enlance https://fim.utp.ac.pa/licenciatura-en-mecanica-automotriz"
+            ]
+        },
+        {
+            "tag": "soldadura",
+            "patterns": [
+                "soldadura",
+                "licenciatura en soldadura",
+                "de que trata la soldadura",
+                "como se suelda",
+                "soldador",
+                "soldar",
+                "como soldar"
+            ],
+            "responses": [
+                "La Carrera de Licenciatura en Soldadura cumple con los requisitos necesarios para que el profesional egresado pueda optar a la certificaci\u00f3n de T\u00e9cnico Internacional en Soldadura de acuerdo a las normas del IIW",
+                "ha sido un placer, vuelva pronto.Va dirigida a todos que desarrollen o pretendan desarrollar su actividad profesional en empresas donde la soldadura forme parte de sus procesos de trabajo.Para m\u00e1s informaci\u00f3n sobre la carrera ingrese al siguiente enlance https://fim.utp.ac.pa/licenciatura-en-soldadura"
+            ]
+        },
+        {
+            "tag": "piloto",
+            "patterns": [
+                "piloto",
+                "piloto de avion",
+                "opcion a vuelo (piloto)",
+                "carrera de piloto de avion",
+                "manejar avion",
+                "p\u00edlotar aeronaves",
+                "volar aviones"
+            ],
+            "responses": [
+                "La Licenciatura en Administraci\u00f3n de Aviaci\u00f3n con Opci\u00f3n a Vuelo Forma profesionales con vasto conocimiento de administraci\u00f3n de empresas de aviaci\u00f3n, en paralelo con el entrenamiento de piloto en cumplimiento con los est\u00e1ndares de las regulaciones vigentes.Para m\u00e1s informaci\u00f3n sobre la carrera ingrese al siguiente enlance https://fim.utp.ac.pa/licenciatura-en-administracion-de-aviacion-con-opcion-vuelo"
+            ]
+        },
+        {
+            "tag": "despachoVuelo",
+            "patterns": [
+                "despacho de vuelo",
+                "tecnico en despacho de vuelo",
+                "preparacion de vuelos",
+                "dirigir aviones",
+                "administrar aviones",
+                "preparacion de vuelos"
+            ],
+            "responses": [
+                "La carrera de T\u00e9cnico en Despacho de Vuelo busca formar t\u00e9cnicos capacitados para atender la log\u00edstica relacionada a la preparaci\u00f3n de los vuelos, tomando en consideraci\u00f3n todas las normas de vuelo y seguridad operacional establecidas y est\u00e1ndares operacionales."
+            ]
+        },
+        {
+            "tag": "mantMotor",
+            "patterns": [
+                "aeronaves",
+                "aviones",
+                "aeronaves",
+                "reparacion de aviones",
+                "Mantenimiento de Aeronaves con Especializaci\u00f3n en Motores y Fuselajes",
+                "reparacion"
+            ],
+            "responses": [
+                "La carrera de T\u00e9cnico en Ingenier\u00eda de Mantenimiento de Aeronaves con Especializaci\u00f3n en Motores y Fuselajes tiene el objetivo de formar profesionales capacitados para trabajar en estaciones reparadores de aviones y que adquieran conocimientos generales de t\u00e9cnico en mantenimiento de sistemas, motores y estructuras de las aeronaves."
             ]
         },
         {

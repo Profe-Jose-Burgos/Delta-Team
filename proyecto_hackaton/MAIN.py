@@ -8,7 +8,7 @@ from unicodedata import normalize
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
-filepath = "./whatsaap_session.txt"
+filepath = "./whatsapp_session.txt"
 driver = webdriver
 
 def crear_driver_session():
@@ -22,11 +22,15 @@ def crear_driver_session():
 
     def new_command_execute(self, command, params=None):
         if command == "newSession":
-            return {"success": 0, "Value": None, "sessionId": session_id}
+            return {"success": 0, "value": None, "sessionId": session_id}
         else: 
             return org_command_execute(self, command, params)
     
     org_command_execute = RemoteWebDriver.execute
+    RemoteWebDriver.execute = new_command_execute
+
+
+
 
     new_driver = webdriver.Remote(command_executor = executor_url, desired_capabilities = {})
     new_driver.session_id = session_id
@@ -37,9 +41,9 @@ def crear_driver_session():
 
 def checkMensajes(chat):
     try:
-        numMes = chat.finf_element(By.CLASS_NAME,"1pJ9J").text
+        numMes = chat.find_element(By.CLASS_NAME,"_1pJ9J").text
 
-        msleer = re.findall ("d/+", numMes)
+        msleer = re.findall ("\d+", numMes)
 
         if len(msleer) != 0:
             pending = True
@@ -65,7 +69,7 @@ def buscar_chats():
             return True
     else:
 
-        chats = driver.find_elements(By.CLASS_NAME, "_10e6M")
+        chats = driver.find_elements(By.CLASS_NAME, "_1Oe6M")
         for chat in chats:
             print("DETECTANDO CHATS")
             print("mensajes sin leer:", len(chats))

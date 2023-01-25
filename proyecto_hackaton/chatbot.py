@@ -30,6 +30,34 @@ def bow(sentence, words, show_details=True):
     return (np.array(bag))
 
 def predict_class(sentence,model):
+    ################ EL TRY EXCEPT NO FUNCIONO, LO LOGRE HACER DE OTRA FORMA ####################
+    # try:
+    #     p = bow(sentence, words, show_details=False)
+    #     res = model.predict(np.array([p]))[0]
+    #     error_threshold = 0.25
+
+    #     results = []
+    #     for i,j in enumerate(res):
+    #         if j > error_threshold:
+    #             results.append([i,j])
+    #     print(results)
+    #     #else:
+    #     #   return "No entendí tu pregunta o inquietud, ¿podría usted ser más específico"
+
+    #     results.sort (key=lambda x:x[1], reverse = True)
+    #     return_list = []
+    #     for i in results:
+    #         return_list.append({"intent": classes[i[0]], "probability": str(i[1])})
+    #     print("return list: ", return_list)
+    #     return return_list
+    
+    # except:
+    #     rtn = "No entendí tu pregunta o inquietud, ¿podría usted ser más específico"
+    #     return rtn
+    
+   
+    
+    
     p = bow(sentence, words, show_details=False)
     res = model.predict(np.array([p]))[0]
     error_threshold = 0.25
@@ -38,8 +66,10 @@ def predict_class(sentence,model):
     for i,j in enumerate(res):
         if j > error_threshold:
             results.append([i,j])
-    #else:
-    #   return "No entendí tu pregunta o inquietud, ¿podría usted ser más específico"
+
+    if results == []:
+        return "No entendí tu pregunta o inquietud, ¿podría usted ser más específico?"
+
 
     results.sort (key=lambda x:x[1], reverse = True)
     return_list = []
@@ -75,9 +105,9 @@ def start_bot():
         print(res)
 
 def bot(texto_us):
-    #start_chatbot() #PRUEBA EN CONSOLA
-    res = chatbot_response(texto_us)
-    return res
+        #start_chatbot() #CONSOLA
+        res=chatbot_response(texto_us)
+        return res
 
 def start_chatbot():
     start_intents()
@@ -95,7 +125,7 @@ if __name__ == "__main__":
     start_bot()
 
 
-    # para ingresas con whatsapp
+    # para ingresar con whatsapp
     #answer = bot(texto_us)
 
 

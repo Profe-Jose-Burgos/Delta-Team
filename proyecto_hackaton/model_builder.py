@@ -91,7 +91,7 @@ def model_builder(x_train, y_train):
 
     model.compile(loss ="categorical_crossentropy", optimizer =sgd, metrics = ["accuracy"])
 
-    hist = model.fit(np.array(x_train), np.array(y_train), epochs = 1300, batch_size=5, verbose=1)
+    hist = model.fit(np.array(x_train), np.array(y_train), epochs = 600, batch_size=5, verbose=1)
     model.save("chatbot_model.h5", hist)
     print("done")
 

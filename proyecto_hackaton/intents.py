@@ -20,7 +20,7 @@ def start_intents():
                              "saludos",
                              "que tal"
                              ],
-                "responses":["hola soy HCK-Bot , tu asistente virtual universitario, ¿en que puedo ayudarte?"
+                "responses":["¡Hola!, soy SAM-BOT, tu asistente virtual de SIC-Panamá . ¿En que podemos ayudarte?"
                              ]
                 },
 
@@ -36,18 +36,43 @@ def start_intents():
                  "responses":["hasta luego, tenga un buen dia",
                  "ha sido un placer, vuelva pronto"
                              ]
-                 },            
+                 },
+
+                 {"tag":"agenteDcarga",
+                 "patterns":["que es agente carga",
+                             "courier",
+                             "PO BOX",
+                             "casillero"
+                             ],
+                 "responses":["un agente de carga es el prestador de servicios especializados que, actuando como principal o tercero entre el usuario y el transportista, desarrolla actividades para solucionar, por cuenta de su cliente o en forma directa, todos los problemas implícitos en el flujo físico de la mercancía.."
+                             ]
+                 },
+
+                 {"tag": "impuestos",
+                "patterns": ["impuestos",
+                             "iva",
+                             "tax",
+                             "taxes"
+                             ],
+                "responses":["Para obtener información detallada acerca del pago de impuestos, por favor visita nuestra página https://delivery.dhl.com/pa"
+                             ]
+                },
+               {"tag": "norespuesta",
+                "patterns": [""],
+                "responses":["no se detecto una respuesta"
+                             ]
+                }
+
                 
                {"tag": "agradecimientos",
                 "patterns": ["gracias",
                              "muchas gracias",
                              "mil gracias",
                              "muy amable",
-                             "se lo agradezco",
-                             "fue de ayuda",
-                             "gracias por la ayuda",
-                             "muy agradecido",
-                             "   gracias por su tiempo",
+                             "agradezco",
+                             "gracias ayuda",
+                             "agradecido",
+                             "gracias su tiempo",
                              "ty"
                              ],
                 "responses":["de nada",
