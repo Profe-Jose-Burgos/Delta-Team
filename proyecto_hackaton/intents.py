@@ -57,11 +57,6 @@ def start_intents():
                 "responses":["Para obtener información detallada acerca del pago de impuestos, por favor visita nuestra página https://delivery.dhl.com/pa"
                              ]
                 },
-               {"tag": "norespuesta",
-                "patterns": [""],
-                "responses":["no se detecto una respuesta"
-                             ]
-                }
 
                 
                {"tag": "agradecimientos",
